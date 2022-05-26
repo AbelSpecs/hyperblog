@@ -5,12 +5,34 @@ body{
 
 #container{
     width: 70%;
-    text-align: left;
-    padding: 2em;
-    border: 1px solid #DDD;
     margin: 0 auto;
 }
 
-#container h1{
+#cabecera {
+    margin: 0 auto;
+    text-align: left;
+    padding: 0.8em 1em;
+    background-color: #1034A6;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid #1034A6;
+    box-shadow: 0 5px 12px 3px rgb(206, 204, 204);
+}
+
+#tagline{
+    font-size: medium;
+    font-weight: normal;
+    padding: 1em;
+}
+
+#post{
+    text-align: left;
+    padding: 2em;
+    border: 1px solid #DDD;
+}
+
+#post h1{
     text-align: center;
 }
+
