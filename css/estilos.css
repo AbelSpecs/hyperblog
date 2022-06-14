@@ -36,3 +36,9 @@ body{
     text-align: center;
 }
 
+#footer {
+    text-align: center;
+    background-color: #DDD;
+    color: white;
+    font-weight: bold;
+}
