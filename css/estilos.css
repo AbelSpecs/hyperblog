@@ -10,14 +10,16 @@ body{
 
 #cabecera {
     margin: 0 auto;
+    height: 100%;
     text-align: left;
-    padding: 0.8em 1em;
-    background-color: #1034A6;
+    padding: 0.8em 3em;
     color: white;
     font-weight: bold;
     font-size: larger;
     border: 1px solid #1034A6;
     box-shadow: 0 5px 12px 3px rgb(206, 204, 204);
+    background: #1034A6 url(../imagenes/dragon.png) no-repeat 10px;
+    background-size: 30px 30px;
 }
 
 #tagline{
@@ -26,7 +28,7 @@ body{
     padding: 1em;
 }
 
-#post{
+#post{ 
     text-align: left;
     padding: 2em;
     border: 1px solid #DDD;
